@@ -686,6 +686,7 @@ class AudioUtilities(object):
 
     @staticmethod
     def GetAllSessions():
+        print("Test")
         audio_sessions = []
         mgr = AudioUtilities.GetAudioSessionManager()
         if mgr is None:
